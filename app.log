@@ -1,17 +1,18 @@
-2023-08-18T17:52:38.450Z info: User requested URL: github.com | User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0
-2023-08-18T17:58:52.325Z info: Serving local HTML file
-2023-08-18T17:58:59.321Z error: Error: Error: net::ERR_NAME_NOT_RESOLVED at https://cache
-2023-08-18T17:59:13.515Z info: Serving local HTML file
-2023-08-18T18:01:45.674Z info: User requested URL: github.com | User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0
-2023-08-18T18:03:09.695Z info: Serving local HTML file
-2023-08-18T18:03:13.009Z info: User requested URL: github.com | User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0
-2023-08-18T18:04:04.622Z info: Serving local HTML file
-2023-08-18T18:04:08.148Z info: User requested URL: github.com | User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0
-2023-08-18T18:05:03.070Z info: User requested URL: github.com | User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0
-2023-08-18T18:07:45.557Z info: User requested URL: github.com | User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0
-2023-08-18T18:09:12.154Z info: User requested URL: github.com | User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0
-2023-08-18T18:09:45.082Z info: User requested URL: github.com | User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0
-2023-08-18T18:10:21.214Z info: User requested URL: github.com | User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0
-2023-08-18T18:12:03.378Z info: Serving local HTML file
-2023-08-18T18:12:05.972Z info: User requested URL: github.com | User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0
-2023-08-18T18:12:14.919Z info: User requested URL: github.com | User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0
+
+2024-01-21T14:48:01.569Z info: User requested URL: instagram.com | User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-01-21T14:48:02.633Z info: User requested URL: instagram.com | User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-01-21T14:48:04.257Z info: User requested URL: instagram.com/images/instagram/xig/homepage/screenshots/screenshot2.png?__d=www | User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-01-21T14:48:04.280Z info: User requested URL: instagram.com/images/instagram/xig/homepage/screenshots/screenshot4.png?__d=www | User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-01-21T14:48:04.374Z info: User requested URL: instagram.com/images/instagram/xig/homepage/screenshots/screenshot1.png?__d=www | User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-01-21T14:48:04.616Z info: User requested URL: instagram.com/images/instagram/xig/homepage/screenshots/screenshot3.png?__d=www | User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-01-21T14:48:05.931Z info: User requested URL: instagram.com/data/manifest.json | User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-01-21T14:48:35.984Z info: User requested URL: instagram.com | User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-01-21T14:48:36.179Z info: User requested URL: instagram.com | User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-01-21T14:48:37.057Z info: User requested URL: instagram.com/images/instagram/xig/homepage/screenshots/screenshot1.png?__d=www | User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-01-21T14:48:37.117Z info: User requested URL: instagram.com/images/instagram/xig/homepage/screenshots/screenshot3.png?__d=www | User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-01-21T14:48:37.131Z info: User requested URL: instagram.com/images/instagram/xig/homepage/screenshots/screenshot2.png?__d=www | User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-01-21T14:48:37.160Z info: User requested URL: instagram.com/images/instagram/xig/homepage/screenshots/screenshot4.png?__d=www | User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-01-21T14:48:37.749Z info: User requested URL: instagram.com/data/manifest.json | User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-01-21T14:48:45.199Z error: Error: TimeoutError: Navigation timeout of 30000 ms exceeded
+2024-01-21T14:48:52.009Z info: User requested URL: youtube.com | User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+2024-01-21T14:49:04.575Z error: Error: [object Object]

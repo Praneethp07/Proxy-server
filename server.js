@@ -5,12 +5,23 @@ const winston = require("winston");
 const path = require("path");
 const fs = require("fs");
 const NodeCache = require("node-cache");
-
+const rateLimit = require("express-rate-limit");
 const app = express();
 
 // Configure caching
 const cacheMemory = new NodeCache({ stdTTL: 60 });
 
+
+// Rate limiting middleware
+const limiter = rateLimit({
+    windowMs: 15 * 60 * 1000, // 15 minutes
+    max: 100, // limit each IP to 100 requests per windowMs
+    message: "Too many requests from this IP, please try again later."
+  });
+  
+// Apply rate limiter to all requests
+app.use(limiter);
+  
 // Configure Winston logger
 const logger = winston.createLogger({
     level: 'info',
@@ -38,7 +49,6 @@ app.get('/', async (req, res) => {
                 logger.error(`Error reading HTML file: ${err}`);
                 return res.status(500).send('Internal Server Error');
             }
-
             logger.info('Serving local HTML file');
             return res.send(htmlContent);
         });
@@ -52,10 +62,9 @@ app.get('/', async (req, res) => {
             if (cachedResponse) {
                 logger.info(`User requested URL: ${url} | User Agent: ${req.get('user-agent')}`);
                 console.log("cache-prax","this is cached content");
-                console.log(cacheMemory);
+                // console.log(cacheMemory);
                 return res.send(cachedResponse);
             }
-
             const page = await browser.newPage();
             await page.goto(`https://${url}`);
             let document = await page.evaluate(() => document.documentElement.outerHTML);
@@ -63,9 +72,7 @@ app.get('/', async (req, res) => {
 
             // Log the user data
             logger.info(`User requested URL: ${url} | User Agent: ${req.get('user-agent')}`);
-            
             cacheMemory.set(KeyVal[1], document);
-            
             return res.send(document);
         } catch (err) {
             logger.error(`Error: ${err}`);
